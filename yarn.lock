@@ -17497,12 +17497,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.1":
-  version: 3.3.2
-  resolution: "nanoid@npm:3.3.2"
+"nanoid@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "nanoid@npm:3.3.3"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: 48a0e9e9f80ced7a7eedf4017236e355eb48284b2bc65e7d75df6348e679b5762ce2e4b375977222c9b4399729a4e564c53bcde814d405c135b0f77a24ecb27c
+  checksum: d7ab68893cdb92dd2152d505e56571d571c65b71a9815f9dfb3c9a8cbf943fe43c9777d9a95a3b81ef01e442fec8409a84375c08f90a5753610a9f22672d953a
   languageName: node
   linkType: hard
 
@@ -19330,6 +19330,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:8.4.13, postcss@npm:^8.2.15, postcss@npm:^8.3.5, postcss@npm:^8.4.6, postcss@npm:^8.4.7":
+  version: 8.4.13
+  resolution: "postcss@npm:8.4.13"
+  dependencies:
+    nanoid: ^3.3.3
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: a0c8bef7518e69f528a136f386ffd026e62be84e5d81d293952dd183b39e862da520b5cf4806f7c9202f47deefdd92ac0e4b564fa77f1dbdf87c745048c3aba3
+  languageName: node
+  linkType: hard
+
 "postcss@npm:^7.0.14, postcss@npm:^7.0.26, postcss@npm:^7.0.32, postcss@npm:^7.0.36, postcss@npm:^7.0.5, postcss@npm:^7.0.6":
   version: 7.0.39
   resolution: "postcss@npm:7.0.39"
@@ -19337,17 +19348,6 @@ __metadata:
     picocolors: ^0.2.1
     source-map: ^0.6.1
   checksum: fd27ee808c0d02407582cccfad4729033e2b439d56cd45534fb39aaad308bb35a290f3b7db5f2394980e8756f9381b458a625618550808c5ff01a125f51efc53
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.2.15, postcss@npm:^8.3.5, postcss@npm:^8.4.6, postcss@npm:^8.4.7":
-  version: 8.4.12
-  resolution: "postcss@npm:8.4.12"
-  dependencies:
-    nanoid: ^3.3.1
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: f5aea065c84efef236e9f387eb4fceaab3cc932c25ce480bb82f75b36a6c1a7720cc4c5ef2fb82a5d216aecb5c436af36dae45191e94a7a5b53c2b999610430f
   languageName: node
   linkType: hard
 
@@ -24106,7 +24106,7 @@ __metadata:
     i18next: ^21.6.11
     i18next-browser-languagedetector: ^6.1.3
     plausible-tracker: ^0.3.5
-    postcss: ^8.4.6
+    postcss: 8.4.13
     postcss-loader: ^6.2.1
     prettier-plugin-tailwindcss: ^0.1.8
     prop-types: 15.8.1
