@@ -20015,9 +20015,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:^11.15.4":
-  version: 11.16.2
-  resolution: "react-i18next@npm:11.16.2"
+"react-i18next@npm:11.16.9":
+  version: 11.16.9
+  resolution: "react-i18next@npm:11.16.9"
   dependencies:
     "@babel/runtime": ^7.14.5
     html-escaper: ^2.0.2
@@ -20030,7 +20030,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 90053f3a584360d665894b60c705008e03487c19f8b662e9f1beeaaa345b52788552b035f6d562fda650187d9c59d566cab4dc68c8a217a19b5412141ce4b535
+  checksum: f2355fad3c992fdf83ab68ca412d1cc9da60edad6cfd9727296e83b34a490d4ee712a6beb903e58d935ef6006bcb4364078ba9841b4242ff71dab62d730635cc
   languageName: node
   linkType: hard
 
@@ -24113,7 +24113,7 @@ __metadata:
     react: 17.0.2
     react-dom: 17.0.2
     react-highlight: ^0.14.0
-    react-i18next: ^11.15.4
+    react-i18next: 11.16.9
     react-markdown: ^8.0.0
     sass: ^1.49.7
     sass-loader: ^12.6.0
