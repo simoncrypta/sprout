@@ -13880,12 +13880,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:^21.6.11":
-  version: 21.6.14
-  resolution: "i18next@npm:21.6.14"
+"i18next@npm:21.8.1":
+  version: 21.8.1
+  resolution: "i18next@npm:21.8.1"
   dependencies:
     "@babel/runtime": ^7.17.2
-  checksum: 0b128a3e0c8bdafa16a2b6cc98702a55088a66ddd6db282c565f2e38bd1adc4350126fc7e4273a75558db2af34ac25728da7c9299e1de55809ee08b7ac89a407
+  checksum: 43e0cd4a06687677902e2bea277bf885e984ab73617661844f2243f2e5a8a21b0fe6bc3a69a523fdb07432e03185dcf7233d820e577d4b251c4b9a4b2d876482
   languageName: node
   linkType: hard
 
@@ -24103,7 +24103,7 @@ __metadata:
     date-fns: ^2.28.0
     filestack-js: ^3.25.0
     i18n: ^0.14.1
-    i18next: ^21.6.11
+    i18next: 21.8.1
     i18next-browser-languagedetector: ^6.1.3
     plausible-tracker: ^0.3.5
     postcss: ^8.4.6
